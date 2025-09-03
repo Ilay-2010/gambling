@@ -1,0 +1,51 @@
+body{
+    background-color: rgb(0, 26, 11);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.num1{
+    color: #615fd3;
+    font-size: 120px;
+}
+.num2{
+    color: #615fd3;
+    font-size: 120px;
+}
+.num3{
+    color: #615fd3;
+    font-size: 120px;
+}
+
+.btn{
+    position: fixed;
+    top: 300px;
+    margin-left: auto;
+    color: rgb(0, 26, 11);
+    background-color: #a3a1f4;
+    font-size: 80px ;
+    border-radius: 10px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    transition: font-size 0.5s ease;
+}
+
+.btn:hover{
+    font-size: 90px;
+}
+
+.btn:active{
+    font-size: 70px;
+}
+
+.container{
+    border: 10px solid #615fd3;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 80%;
+    height: 150px;
+    margin: 50px auto;
+}

@@ -3,7 +3,7 @@ const num1 = document.getElementById("num1id");
 const num2 = document.getElementById("num2id");
 const num3 = document.getElementById("num3id");
 const btn = document.getElementById("btnid");
-let times = 30;
+let times = 29;
 
 function getRandomInt(max) {
   return Math.floor(Math.random() * (max + 1));
@@ -12,19 +12,19 @@ function getRandomInt(max) {
 async function spin() {
     for (let i = 0; i < 50; i++) {
         num1.textContent = getRandomInt(9);
-        await delay(times);
+        await delay(29);
     }
     num1.textContent = getRandomInt(3);
 
     for (let i = 0; i < 50; i++) {
         num2.textContent = getRandomInt(9);
-        await delay(times);
+        await delay(29);
     }
     num2.textContent = getRandomInt(3);
 
     for (let i = 0; i < 50; i++) {
         num3.textContent = getRandomInt(9);
-        await delay(times);
+        await delay(29);
     }
     num3.textContent = getRandomInt(3);
 
@@ -40,4 +40,5 @@ async function spin() {
 function delay(ms) {
   return new Promise(resolve => setTimeout(resolve, ms));
 }
+
 

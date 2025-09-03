@@ -3,7 +3,7 @@ const num1 = document.getElementById("num1id");
 const num2 = document.getElementById("num2id");
 const num3 = document.getElementById("num3id");
 const btn = document.getElementById("btnid");
-let times = 0;
+let times = 30;
 
 function getRandomInt(max) {
   return Math.floor(Math.random() * (max + 1));
@@ -40,3 +40,4 @@ async function spin() {
 function delay(ms) {
   return new Promise(resolve => setTimeout(resolve, ms));
 }
+

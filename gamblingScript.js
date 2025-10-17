@@ -12,19 +12,19 @@ function getRandomInt(max) {
 async function spin() {
     for (let i = 0; i < 50; i++) {
         num1.textContent = getRandomInt(9);
-        await delay(29);
+        await delay(times);
     }
     num1.textContent = getRandomInt(3);
 
     for (let i = 0; i < 50; i++) {
         num2.textContent = getRandomInt(9);
-        await delay(29);
+        await delay(times);
     }
     num2.textContent = getRandomInt(3);
 
     for (let i = 0; i < 50; i++) {
         num3.textContent = getRandomInt(9);
-        await delay(29);
+        await delay(times);
     }
     num3.textContent = getRandomInt(3);
 
